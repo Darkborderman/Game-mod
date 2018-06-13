@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/exampledungeon",
+    "value" : {
+      "primaryDungeon" : "exampledungeon",
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [200, 200, 200]
+    }
+  }
+]

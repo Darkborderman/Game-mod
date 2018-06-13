@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "exampledungeon",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "exampledungeon" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "exampledungeon",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "exampledungeon.json" ]
+    }
+  ]
+}
