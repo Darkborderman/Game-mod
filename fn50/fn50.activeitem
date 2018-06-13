@@ -21,34 +21,6 @@
     "muzzleFlash" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/muzzleflash.png"
   },
   "animationCustom" : {
-    "animatedParts" : { "stateTypes" : { "middle" : {
-      "default" : "idle",
-      "states" : {
-        "idle" : {
-          "frames" : 8,
-          "cycle" : 0.6,
-          "mode" : "loop"
-        }
-      }}},
-      "parts" : { "middlefullbright" : {
-        "properties" : {
-          "centered" : true,
-          "offset" : [0.625, 0.125],
-          "zLevel" : 1,
-          "transformationGroups" : ["weapon"],
-          "fullbright" : true
-        },
-        "partStates" : {
-          "middle" : {
-            "idle" : {
-              "properties" : {
-                "image" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/spaceplasmariflefullbright.png:<frame><paletteSwaps>"
-              }
-            }
-          }
-        }
-      }}
-    },
     "sounds" : {
       "fire" : ["/sfx/gun/plasma_ar4.ogg"],
       "altFire" : [ "/sfx/gun/plasma_shotgun1.ogg" ]
@@ -65,11 +37,11 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.05,
+    "fireTime" : 0.1,
     "baseDps" : 25,
     "energyUsage" : 75,
     "projectileCount" : 1,
-    "inaccuracy" : 0.001,
+    "inaccuracy" : 0.025,
 
     "fireType" : "auto",
 
@@ -98,7 +70,7 @@
         "allowFlip" : true
       },
       "cooldown" : {
-        "duration" : 0.1,
+        "duration" : 0,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,
