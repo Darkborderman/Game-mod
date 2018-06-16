@@ -192,8 +192,41 @@
          "visible":true,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"monsters",
+         "objects":[
+                {
+                 "height":10,
+                 "id":58,
+                 "name":"",
+                 "properties":
+                    {
+                     "level":"5",
+                     "npc":"glitch",
+                     "typeName":"bandit"
+                    },
+                 "propertytypes":
+                    {
+                     "level":"string",
+                     "npc":"string",
+                     "typeName":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":28,
+                 "x":61,
+                 "y":85.5
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextobjectid":57,
+ "nextobjectid":62,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.0.3",

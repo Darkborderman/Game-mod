@@ -1,9 +1,9 @@
 {
   "metadata" : {
-    "name" : "exampledungeon",
+    "name" : "dungeonworld",
     "species" : "generic",
     "rules" : [],
-    "anchor" : [ "exampledungeon" ],
+    "anchor" : [ "dungeonworld" ],
     "maxRadius" : 1000000,
     "maxParts" : 100,
     "protected" : true
@@ -11,11 +11,11 @@
 
   "parts" : [
     {
-      "name" : "exampledungeon",
+      "name" : "dungeonworld",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "exampledungeon.json" ]
+      "def" : [ "tmx", "dungeonworld.json" ]
     }
   ]
 }
